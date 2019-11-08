@@ -1,7 +1,7 @@
 ---
 title: "02 Les Types Complexes"
 date: 2019-11-07T22:43:26+01:00
-draft: true
+draft: false
 ---
 
 Pour stocker plusieurs valeurs dans une seule variable ou constante, ce qui peut être pertinent certaines fois, exemple var daysOfTheWeek, il y a les tuples et les collections, les collections sont divisées en plusieurs types....
