@@ -2,3 +2,5 @@ baseURL = ""
 languageCode = "fr"
 title = "Bon swift, bonjour"
 theme = "ananke"
+PygmentsCodeFences = true
+PygmentsStyle = "xcode"

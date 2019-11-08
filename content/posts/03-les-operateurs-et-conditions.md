@@ -4,7 +4,7 @@ date: 2019-11-07T22:44:04+01:00
 draft: false
 ---
 
-En swift on peut se servir des opérateurs arithmétique classique pour caclucler et plus encore...
+En swift on peut se servir des opérateurs arithmétique classique pour calculer et plus encore...
 Il y le (+) pour l'addition, le (-) pour la soustraction, le (/) pour la division, le (*) pour la multiplication et le modulo (%), le modulo retourne le reste de la divison euclidienne 9 % 5 = 4 (car quand on divise 9 par 5 on a un résulat de 1 avec un reste de 5).Le modulo peut-être utilisé pour trouver les nombres pairs/impairs... un nombre pair modulo 2 sera égal à 0 !!! 
 
 ### L'addition, et plus encore
@@ -27,7 +27,7 @@ var badSum = 43 + 5.0 // pas bien !!!
 
 ### Les conditions.... if 
 
-Les comparaisons et les conditions sont étroitement liées, on compare deux valeurs (ou plus) et on agit fonction du résultat de le la comparaison, c'est à ce moment que nos booléens (Bool) rentrent en action... si (a + b) < 8 alors fait ça..., cette "expression" sera forcément true ou false
+Les comparaisons et les conditions sont étroitement liées, on compare deux valeurs (ou plus) et on agit fonction du résultat de la comparaison, c'est à ce moment que nos booléens (Bool) rentrent en action... si (a + b) < 8 alors fait ça..., cette "expression" sera forcément true ou false
 
 {{< highlight swift >}}
 // je déclare name
@@ -116,7 +116,7 @@ if num 1 > num 2 || isAdmin {
 if num 1 > num 2 && isAdmin {
     print("Deux conditions pas ok, donc pas ok, donc pas afficher")
 } else {
-    print("Deux conditions pas ok, donc pas ok, donc afficher car dans else")
+    print("Deux conditions ok, donc ok, donc afficher car dans else")
 }
 
 // le == c'est égal à... et le != c'est différent de...
@@ -142,4 +142,5 @@ print("isBigger vaut \(isBigger)")
 //    isBigger = false
 // }
 // le if commenté est la même expression que le ternaire
+// si tu décommentes et qu'il y a une erreur.... réfléchis !!!
 {{< / highlight >}}
